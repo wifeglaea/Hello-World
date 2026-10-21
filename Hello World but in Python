@@ -2,10 +2,10 @@
 print("Hello World.")
 hello=input("Don't be rude. Say it back.")).casefold()
 if hello=="hello":
-print("Yes. Hello.")
+ print("Yes. Hello.")
 elif hello=="hi":
-print("Really not what was asked, but it isn't wrong. Hi.")
+ print("Really not what was asked, but it isn't wrong. Hi.")
 elif hello=="fuck you":
-print("Those words are too big for you.")
+ print("Those words are too big for you.")
 else:
-print("Wrong answer.")
+ print("Wrong answer.")
