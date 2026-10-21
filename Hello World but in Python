@@ -1,6 +1,6 @@
 #Hello world, except it's in Python because I like Python
 print("Hello World.")
-hello=input(String("Don't be rude. Say it back.")).casefold()
+hello=input("Don't be rude. Say it back.")).casefold()
 if hello=="hello":
 print("Yes. Hello.")
 elif hello=="hi":
