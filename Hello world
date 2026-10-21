@@ -1,1 +1,30 @@
-System.out.print("Hello World");
+import.java.util*
+public class HiHello
+{
+public static void main (String args[])
+{
+Scanner scnr= new Scanner(System.in);
+//Im going to say hello
+System.out.println("Hello World");
+System.out.println("Say it back. Don't be rude.");
+//Say hi back??
+String hello=scnr.nextLine();
+if(hello=="Hello" || hello=="hello")
+{
+System.out.println("Yes. Correct. Hello.");
+}
+else if(hello=="Hi" || hello=="hi")
+{
+System.out.println("Really not what was asked, but it isn't wrong. Hi.");
+}
+else if (hello=="Fuck you" || hello=="fuck you")
+{
+System.out.println("Those words are too big for you.");
+}
+else
+{
+System.out.println("Wrong answer.")
+}
+scnr.close();
+}
+}
