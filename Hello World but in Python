@@ -1,0 +1,11 @@
+#Hello world, except it's in Python because I like Python
+print("Hello World.")
+hello=input(String("Don't be rude. Say it back.")).casefold()
+if hello=="hello":
+print("Yes. Hello.")
+elif hello=="hi":
+print("Really not what was asked, but it isn't wrong. Hi.")
+elif hello=="fuck you":
+print("Those words are too big for you.")
+else:
+print("Wrong answer.")
