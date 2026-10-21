@@ -11,7 +11,7 @@ System.out.println("Say it back. Don't be rude.");
 String hello=scnr.nextLine();
 if(hello=="Hello" || hello=="hello")
 {
-System.out.println("Yes. Correct. Hello.");
+System.out.println("Yes. Hello.");
 }
 else if(hello=="Hi" || hello=="hi")
 {
